@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "standing_elytra",
+  "version": "${version}",
+  "name": "Standing Elytra",
+  "description": "Visually keeps the player upright while gliding with an elytra. The hitbox is unchanged.",
+  "authors": ["abo9kr"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "standingelytra.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21 <1.21.2",
+    "java": ">=21"
+  }
+}
